@@ -324,7 +324,7 @@ img{
     padding: 6px 22px;
     display: block;
     transition: color var(--anim-fast) var(--transition-func),
-    background-color var(--anim-fast) var(var(--transition-func)),
+    background-color var(--anim-fast) var(--transition-func),
     box-shadow var(--anim-fast) var(--transition-func);
 }   
 .filter-btn:hover,
@@ -384,7 +384,6 @@ img{
     width: 100%;
     letter-spacing: 0.03em;
     transform: translateY(100%);
-    overflow: hidden;
     padding: 63px 24px;
     background-color: rgba(33, 150, 243, 0.9);
     transition: transform var(--anim-fast) var(--transition-func);
@@ -456,12 +455,6 @@ img{
 }
 /* Постоянные клиенты */
 .clients-item{
-    display: flex;
-    width: 170px;
-    height: 92px;
-    align-items: center;
-    justify-content: center;
-    flex-basis: calc((100% - var(--indent) * (var(--item) - 1)) / var(--item));
     --item: 6;
 }
 .clients-link{
@@ -469,9 +462,9 @@ img{
     align-items: center;
     justify-content: center;
     padding-top: 16px;
-    padding-right: 32px;
+    padding-right: 30px;
     padding-bottom: 16px;
-    padding-left: 32px;
+    padding-left: 30px;
     border: 1px solid var(--icon-color-grey);
     border-radius: 4px;
     fill: var(--icon-color-grey);
